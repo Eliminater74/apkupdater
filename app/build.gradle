@@ -14,6 +14,7 @@ android {
         targetSdkVersion 29
         versionCode 43
         versionName "2.0.5"
+        setProperty("archivesBaseName", "ApkUpdater-$versionName")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.debug
         multiDexEnabled true
