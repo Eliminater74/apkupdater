@@ -75,11 +75,9 @@ android {
 
     lint {
         disable 'ExtraTranslation', 'MissingTranslation'
-    }
-
-    lintOptions {
         abortOnError false
     }
+
 }
 
 dependencies {
